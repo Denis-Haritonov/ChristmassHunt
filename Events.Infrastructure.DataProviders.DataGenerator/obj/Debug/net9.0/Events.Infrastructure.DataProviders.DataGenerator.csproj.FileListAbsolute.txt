@@ -1,0 +1,17 @@
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\bin\Debug\net9.0\Events.Infrastructure.DataProviders.DataGenerator.deps.json
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\bin\Debug\net9.0\Events.Infrastructure.DataProviders.DataGenerator.dll
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\bin\Debug\net9.0\Events.Infrastructure.DataProviders.DataGenerator.pdb
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\bin\Debug\net9.0\Common.dll
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\bin\Debug\net9.0\Events.Domain.dll
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\bin\Debug\net9.0\Common.pdb
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\bin\Debug\net9.0\Events.Domain.pdb
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\obj\Debug\net9.0\Events.Infrastructure.DataProviders.DataGenerator.csproj.AssemblyReference.cache
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\obj\Debug\net9.0\Events.Infrastructure.DataProviders.DataGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\obj\Debug\net9.0\Events.Infrastructure.DataProviders.DataGenerator.AssemblyInfoInputs.cache
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\obj\Debug\net9.0\Events.Infrastructure.DataProviders.DataGenerator.AssemblyInfo.cs
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\obj\Debug\net9.0\Events.Infrastructure.DataProviders.DataGenerator.csproj.CoreCompileInputs.cache
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\obj\Debug\net9.0\Events.I.D70075D0.Up2Date
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\obj\Debug\net9.0\Events.Infrastructure.DataProviders.DataGenerator.dll
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\obj\Debug\net9.0\refint\Events.Infrastructure.DataProviders.DataGenerator.dll
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\obj\Debug\net9.0\Events.Infrastructure.DataProviders.DataGenerator.pdb
+C:\Work\Events\Events.Infrastructure.DataProviders.DataGenerator\obj\Debug\net9.0\ref\Events.Infrastructure.DataProviders.DataGenerator.dll

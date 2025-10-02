@@ -1,0 +1,11 @@
+C:\Work\Events\Common\bin\Debug\net9.0\Common.deps.json
+C:\Work\Events\Common\bin\Debug\net9.0\Common.dll
+C:\Work\Events\Common\bin\Debug\net9.0\Common.pdb
+C:\Work\Events\Common\obj\Debug\net9.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Events\Common\obj\Debug\net9.0\Common.AssemblyInfoInputs.cache
+C:\Work\Events\Common\obj\Debug\net9.0\Common.AssemblyInfo.cs
+C:\Work\Events\Common\obj\Debug\net9.0\Common.csproj.CoreCompileInputs.cache
+C:\Work\Events\Common\obj\Debug\net9.0\Common.dll
+C:\Work\Events\Common\obj\Debug\net9.0\refint\Common.dll
+C:\Work\Events\Common\obj\Debug\net9.0\Common.pdb
+C:\Work\Events\Common\obj\Debug\net9.0\ref\Common.dll

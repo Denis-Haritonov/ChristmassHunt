@@ -1,0 +1,15 @@
+C:\Work\Events\Events.Domain\bin\Debug\net9.0\Events.Domain.deps.json
+C:\Work\Events\Events.Domain\bin\Debug\net9.0\Events.Domain.dll
+C:\Work\Events\Events.Domain\bin\Debug\net9.0\Events.Domain.pdb
+C:\Work\Events\Events.Domain\bin\Debug\net9.0\Common.dll
+C:\Work\Events\Events.Domain\bin\Debug\net9.0\Common.pdb
+C:\Work\Events\Events.Domain\obj\Debug\net9.0\Events.Domain.csproj.AssemblyReference.cache
+C:\Work\Events\Events.Domain\obj\Debug\net9.0\Events.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Work\Events\Events.Domain\obj\Debug\net9.0\Events.Domain.AssemblyInfoInputs.cache
+C:\Work\Events\Events.Domain\obj\Debug\net9.0\Events.Domain.AssemblyInfo.cs
+C:\Work\Events\Events.Domain\obj\Debug\net9.0\Events.Domain.csproj.CoreCompileInputs.cache
+C:\Work\Events\Events.Domain\obj\Debug\net9.0\Events.D.33E6B4BB.Up2Date
+C:\Work\Events\Events.Domain\obj\Debug\net9.0\Events.Domain.dll
+C:\Work\Events\Events.Domain\obj\Debug\net9.0\refint\Events.Domain.dll
+C:\Work\Events\Events.Domain\obj\Debug\net9.0\Events.Domain.pdb
+C:\Work\Events\Events.Domain\obj\Debug\net9.0\ref\Events.Domain.dll

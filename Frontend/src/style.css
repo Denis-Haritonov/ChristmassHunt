@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #0a2e5c, #1a5b9a);
+  color: white;
+  height: 100vh;
+}
+
+#map {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+.header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
+  color: #ffcc00;
+  text-shadow: 0 0 5px rgba(255, 204, 0, 0.7);
+}
+
+.loading {
+  font-size: 0.9rem;
+  color: #ffcc00;
+}
+
+.custom-marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 70px;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.5));
+  position: relative;
+}
+
+.marker-pin {
+  width: 40px;
+  height: 40px;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+  border: 2px solid white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+}
+
+.marker-pin.tree {
+  background: #2e8b57;
+}
+
+.marker-pin.deer {
+  background: #8b4513;
+}
+
+.marker-pin.gnome {
+  background: #dc143c;
+}
+
+.marker-pin.santa {
+  background: #b22222;
+}
+
+.marker-text {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+  white-space: nowrap;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 3px 8px;
+  border-radius: 5px;
+}
+
+/* Снег */
+.snow-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.snowflake {
+  position: absolute;
+  top: -10px;
+  color: white;
+  font-size: 1em;
+  user-select: none;
+  opacity: 0.9;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+}
+
+/* Анимация снега */
+@keyframes fall {
+  0% {
+    top: -10px;
+    opacity: 0.9;
+  }
+  100% {
+    top: 100vh;
+    opacity: 0;
+  }
+}
+
+@keyframes sway {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(30px);
+  }
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 1.4rem;
+  }
+  
+  .custom-marker {
+    width: 60px;
+  }
+  
+  .marker-pin {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .marker-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    padding: 8px 15px;
+  }
+  
+  .header h1 {
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VSOcel88Kts=",
+  "success": true,
+  "projectFilePath": "C:\\Work\\СhristamassHunt\\Events.Infrastructure.DI\\Events.Infrastructure.DI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\falle\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0-rc.1.25451.107\\microsoft.extensions.dependencyinjection.abstractions.10.0.0-rc.1.25451.107.nupkg.sha512"
+  ],
+  "logs": []
+}

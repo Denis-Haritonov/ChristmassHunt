@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #0a2e5c, #1a5b9a);
+    color: white;
+    height: 100vh;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.header {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+    color: #ffcc00;
+    text-shadow: 0 0 5px rgba(255, 204, 0, 0.7);
+}
+
+.loading {
+    font-size: 0.9rem;
+    color: #ffcc00;
+}
+
+.marker-pin .symbol{
+    font-size: 18px;
+    position: relative;
+    top: -46px;
+    left: 11px;
+}
+.marker-pin.tree {
+    color: #bb0d31;
+}
+
+.marker-pin.tree .symbol {
+    font-size: 24px;
+    left: 8px;
+    top: -50px;
+}
+
+.marker-pin.deer {
+    color: #25a514;
+}
+
+.marker-pin.deer .symbol {
+    font-size: 22px;
+    left: 9px;
+    top: -50px;
+}
+
+.marker-pin.dwarf {
+    color: #ffbb1f;
+}
+
+.marker-pin.dwarf .symbol {
+    left: 8px;
+    top: -50px;
+}
+
+
+.marker-pin.santa {
+    color: #2262d8;
+}
+
+.marker-pin.santa .symbol {
+    font-size: 22px;
+    left: 9px;
+    top: -48px;
+}
+
+.marker-text {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    white-space: nowrap;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 1.4rem;
+    }
+
+    .custom-marker {
+        width: 60px;
+    }
+
+    .marker-pin {
+        width: 35px;
+        height: 35px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .marker-text {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 8px 15px;
+    }
+
+    .header h1 {
+        font-size: 1.2rem;
+    }
+}
